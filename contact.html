@@ -15,17 +15,39 @@
                 <ul>
                     <li><a href="index.html">Home</a></li>
                     <li><a href="about.html">About</a></li>
+                    <li><a href="skills.html">Skills</a></li>
+                    <li><a href="experience.html">Experience</a></li>
+                    <li><a href="projects.html">Projects</a></li>
                     <li><a href="contact.html">Contact</a></li>
                 </ul>
             </nav>
-       >
+        </div>
     </header>
     <div class="container main-content">
+        <aside class="sidebar">
+            <ul>
+                <li><a href="about.html">About</a></li>
+                <li><a href="skills.html">Skills</a></li>
+                <li><a href="experience.html">Experience</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </aside>
         <section class="section-content">
             <h2 class="section-title slide-in">Contact Information</h2>
             <p class="fade-in"><strong>Location:</strong> Hyderabad</p>
             <p class="fade-in"><strong>Email:</strong> <a href="mailto:bhavithabatchu@gmail.com">bhavithabatchu@gmail.com</a></p>
             <p class="fade-in"><strong>Phone:</strong> <a href="tel:7075093199">7075093199</a></p>
+            <form class="contact-form fade-in">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
         </section>
-   body>
+    </div>
+</body>
 </html>
